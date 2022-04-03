@@ -5,6 +5,9 @@ import PackageDescription
 
 let package = Package(
   name: "Trek",
+  products: [
+    .executable(name: "trek", targets: ["Trek"])
+  ],
   dependencies: [],
   targets: [
     .executableTarget(
